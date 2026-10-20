@@ -1,0 +1,32 @@
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local databases
+*.db
+*.db-journal
+*.db-shm
+*.db-wal
+
+# Google ADK local state
+.adk/
+.adk_data/
+.adk_sessions/
+.agent_sessions/
+*.sqlite
+*.sqlite3
+
+# macOS / IDE
+.DS_Store
+.idea/
+.vscode/

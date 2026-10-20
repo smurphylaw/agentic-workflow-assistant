@@ -1,0 +1,4 @@
+google-adk[mcp]
+mcp[cli]>=2,<3
+python-dotenv
+pytest
