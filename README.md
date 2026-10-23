@@ -127,7 +127,7 @@ The approval mechanism operates outside the agent's available MCP tools.
 Clone the repository:
 
 ```bash
-git clone <YOUR_REPOSITORY_URL>
+git clone https://github.com/smurphylaw/agentic-workflow-assistant
 cd Agentic-Workflow-Assistant
 ```
 
@@ -224,12 +224,6 @@ The test suite covers:
 - Duplicate approval prevention
 - Verification that proposals do not directly modify request status
 
-**Current result: 9 passing tests.**
-
 ## Project Scope
 
 This is a local learning project developed to gain hands-on experience with agentic AI, Google ADK, Gemini, MCP, and human-in-the-loop workflow automation.
-
-It demonstrates a functional prototype rather than a production-deployed system.
-
-Potential future enhancements include authenticated approvals, expanded operational tools, and deployment to a hosted environment.
